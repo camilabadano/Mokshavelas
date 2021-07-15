@@ -1,0 +1,262 @@
+body {
+  font-family: Calibri, Geneva, Tahoma, sans-serif;
+  background-color: #eeebd0; }
+
+header .menu {
+  background: linear-gradient(to top, #d8ba71, #fffbbd);
+  display: block;
+  width: 100vw;
+  position: fixed;
+  font-size: 1.2rem;
+  text-align: center;
+  z-index: 999; }
+
+header ul li {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 2.5rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  position: relative; }
+
+header .logo {
+  width: 8rem;
+  height: 8rem;
+  display: inline-block; }
+
+header .submenu {
+  margin: 0px !important;
+  padding: 0px !important; }
+
+header .submenu li {
+  background-color: #d8ba71 !important;
+  position: relative;
+  margin: 0px;
+  border-bottom: solid 2px;
+  width: 100%;
+  margin-left: 0; }
+
+header ul li:hover ul {
+  display: block; }
+
+header .menu li a:hover {
+  color: antiquewhite !important;
+  background-color: #d5bf86;
+  border-radius: 10px; }
+
+header .dropdown-menu {
+  background-color: #d5bf86 !important; }
+
+.container__inicio {
+  background-color: #fffbbd;
+  max-width: 50rem;
+  max-height: 30rem;
+  margin: 1rem;
+  border: 5px solid #cf995f;
+  border-style: double;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+  grid-column-gap: 20px;
+  justify-self: center; }
+
+.muestras {
+  max-width: 20rem;
+  max-height: 20rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  display: inline-block;
+  padding: 5px;
+  background-color: #cf995f;
+  justify-self: center; }
+
+.gridProductos {
+  background-color: #fffbbd;
+  border: 5px solid #cf995f;
+  border-style: double;
+  border-radius: 20px; }
+
+.muestrasProductos {
+  width: 15rem;
+  height: 18rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  display: grid;
+  padding: 5px;
+  background-color: #cf995f;
+  justify-self: center; }
+
+.homespraytexto {
+  background-color: #fffbbd;
+  border: 5px solid #cf995f;
+  border-style: double;
+  border-radius: 20px; }
+
+.muestratexto {
+  width: 240px;
+  height: 320px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  padding: 5px;
+  justify-self: center;
+  background-color: #cf995f; }
+
+.muestratextodos {
+  margin-top: 6rem;
+  font-style: oblique;
+  font-size: x-large;
+  text-align: justify; }
+
+.contcenter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.cuerpo {
+  padding-top: 150px; }
+
+.imagen__inicio {
+  display: block;
+  margin: auto; }
+
+h2 {
+  text-align: center;
+  font-size: x-large;
+  text-transform: capitalize; }
+
+.texto__inicio {
+  font-weight: lighter;
+  font-style: normal;
+  font-size: x-large;
+  text-align: center;
+  margin: 1rem;
+  padding: 2rem;
+  line-height: 1, 5;
+  position: relative; }
+
+.momentofoto {
+  max-width: 40rem;
+  max-height: 40rem;
+  margin: 3rem;
+  box-shadow: -10px 20px #cf995f; }
+
+.momentomoksha {
+  font-size: 40px; }
+
+.compartinos {
+  text-align: left;
+  font-size: 20px; }
+
+.moksha {
+  background-color: #cf995f;
+  border-radius: 20px;
+  width: 160px;
+  height: 10px;
+  font-size: 20px; }
+
+.titulocontacto {
+  text-align: center;
+  font-size: 30px; }
+
+.formulario {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.formulario__campo {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Calibri, Geneva, Tahoma, sans-serif; }
+
+footer {
+  margin-top: 5rem;
+  padding-bottom: 0.5rem;
+  padding-top: 1rem;
+  border-top: 0.5px black solid;
+  text-align: left;
+  font-style: normal;
+  background: linear-gradient(to top, #d8ba71, #fffbbd); }
+
+.botonenviar {
+  border-radius: 90px;
+  width: 6rem; }
+
+.contacto {
+  width: 5rem; }
+
+.significado {
+  background-color: #fffbbd;
+  margin: 1rem;
+  padding: 1rem;
+  border: 5px solid #cf995f;
+  border-style: double;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: justify;
+  font-size: x-large; }
+
+.mokshatitulo {
+  color: black;
+  text-align: center;
+  text-decoration: underline; }
+
+@media only screen and (max-width: 768px) {
+  .lista {
+    display: none; }
+  .imageninicio {
+    width: 300px; }
+  .muestras {
+    width: 100px; }
+  .logoinicio {
+    margin-top: 10px;
+    width: 80px;
+    height: 80px; }
+  header {
+    text-align: left; }
+  header ul li {
+    margin: 0; }
+  .formulario {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .campoformulario {
+    text-align: center;
+    width: 18rem;
+    margin: 10px; } }
+
+@media only screen and (min-width: 992px) {
+  header .menu {
+    height: 100px; } }
+
+@media only screen and (max-width: 1200px) and (min-width: 768px) {
+  header {
+    font-size: 1rem; }
+  header ul li {
+    margin-left: 2rem;
+    margin-right: 2rem; } }
+
+@media only screen and (max-width: 830px) {
+  .momentomoksha {
+    grid-column: 1;
+    grid-row: auto;
+    padding-left: 2rem; }
+  .momentofoto {
+    max-width: 30rem;
+    max-height: 30rem;
+    margin: 2rem;
+    box-shadow: -10px 20px #cf995f; }
+  .gridProductos {
+    grid-column: 1;
+    grid-row: auto;
+    padding: 18px; }
+  .muestrasProductos {
+    grid-column: 1;
+    grid-row: auto;
+    padding: 18x; } }

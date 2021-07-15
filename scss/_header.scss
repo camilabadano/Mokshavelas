@@ -1,0 +1,60 @@
+body {
+  font-family: Calibri, Geneva, Tahoma, sans-serif;
+  background-color: #eeebd0;
+}
+
+header {
+  .menu {
+    background: linear-gradient(to top, #d8ba71, #fffbbd);
+    display: block;
+    width: 100vw;
+
+    position: fixed;
+    font-size: 1.2rem;
+    text-align: center;
+    z-index: 999;
+  }
+
+  ul li {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2.5rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    position: relative;
+  }
+
+  .logo {
+    width: 8rem;
+    height: 8rem;
+    display: inline-block;
+  }
+
+  .submenu {
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+
+  .submenu li {
+    background-color: #d8ba71 !important;
+    position: relative;
+    margin: 0px;
+    border-bottom: solid 2px;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  ul li:hover ul {
+    display: block;
+  }
+
+  .menu li a:hover {
+    color: antiquewhite !important;
+    background-color: #d5bf86;
+    border-radius: 10px;
+  }
+
+  .dropdown-menu {
+    background-color: #d5bf86 !important;
+  }
+}
