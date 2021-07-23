@@ -49,26 +49,11 @@ header .dropdown-menu {
 
 .container__inicio {
   background-color: #fffbbd;
-  max-width: 50rem;
-  max-height: 30rem;
-  margin: 1rem;
   border: 5px solid #cf995f;
   border-style: double;
-  border-radius: 20px;
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 100%;
-  grid-column-gap: 20px;
-  justify-self: center; }
+  border-radius: 20px; }
 
 .muestras {
-  max-width: 20rem;
-  max-height: 20rem;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-  margin-left: 4rem;
-  margin-right: 4rem;
-  display: inline-block;
   padding: 5px;
   background-color: #cf995f;
   justify-self: center; }
@@ -138,9 +123,6 @@ h2 {
   position: relative; }
 
 .momentofoto {
-  max-width: 40rem;
-  max-height: 40rem;
-  margin: 3rem;
   box-shadow: -10px 20px #cf995f; }
 
 .momentomoksha {
@@ -174,8 +156,7 @@ h2 {
 
 footer {
   margin-top: 5rem;
-  padding-bottom: 0.5rem;
-  padding-top: 1rem;
+  padding: 10px;
   border-top: 0.5px black solid;
   text-align: left;
   font-style: normal;
@@ -211,8 +192,6 @@ footer {
     display: none; }
   .imageninicio {
     width: 300px; }
-  .muestras {
-    width: 100px; }
   .logoinicio {
     margin-top: 10px;
     width: 80px;
@@ -247,11 +226,6 @@ footer {
     grid-column: 1;
     grid-row: auto;
     padding-left: 2rem; }
-  .momentofoto {
-    max-width: 30rem;
-    max-height: 30rem;
-    margin: 2rem;
-    box-shadow: -10px 20px #cf995f; }
   .gridProductos {
     grid-column: 1;
     grid-row: auto;

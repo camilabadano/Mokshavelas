@@ -28,9 +28,6 @@ h2 {
 }
 
 .momentofoto {
-  max-width: 40rem;
-  max-height: 40rem;
-  margin: 3rem;
   box-shadow: -10px 20px #cf995f;
 }
 
@@ -71,8 +68,7 @@ h2 {
 
 footer {
   margin-top: 5rem;
-  padding-bottom: 0.5rem;
-  padding-top: 1rem;
+  padding: 10px;
   border-top: 0.5px black solid;
   text-align: left;
   font-style: normal;
@@ -115,10 +111,6 @@ footer {
 
   .imageninicio {
     width: 300px;
-  }
-
-  .muestras {
-    width: 100px;
   }
 
   .logoinicio {
@@ -171,13 +163,6 @@ footer {
     grid-column: 1;
     grid-row: auto;
     padding-left: 2rem;
-  }
-
-  .momentofoto {
-    max-width: 30rem;
-    max-height: 30rem;
-    margin: 2rem;
-    box-shadow: -10px 20px #cf995f;
   }
 
   .gridProductos {
